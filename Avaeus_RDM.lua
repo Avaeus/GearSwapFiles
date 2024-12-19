@@ -75,7 +75,6 @@ function get_sets()
 
 	-- Standard Idle set with -DT,Refresh,Regen and movement gear
 	sets.Idle = {
-		main="Earth Staff",
 		head="Walahra Turban",
 		body="Warlock's Tabard",
 		hands="Warlock's Gloves",
@@ -104,17 +103,16 @@ function get_sets()
 	sets.OffenseMode.TP = set_combine(sets.OffenseMode, {})
 
 	sets.OffenseMode.DT = set_combine(sets.OffenseMode, {
-		main="Earth Staff",
 		head="Walahra Turban",
 		body="Warlock's Tabard",
 		hands="Warlock's Gloves",
 		legs="Warlock's Tights",
 		feet="Warlock's Boots",
-		neck="Jeweled Collar",
+		neck="Wivre Gorget",
 		waist="Marid Belt",
 		left_ear="Phantom Earring",
 		right_ear="Platinum Earring",
-		left_ring="Empress Band",
+		left_ring="Crimson Ring",
 		right_ring="Echad Ring",
 		back="Smilodon Mantle",
 	})
@@ -170,7 +168,6 @@ function get_sets()
 
 	-- Cure Set
 	sets.Midcast.Cure = {
-		main="Iridal Staff",
 		head="Warlock's Chapeau",
 		body="Warlock's Tabard",
 		hands="Warlock's Gloves",
@@ -237,7 +234,6 @@ function get_sets()
 	sets.Midcast.Dark.Absorb = set_combine(sets.Midcast.Enfeebling, {})
 
 	sets.Midcast.Nuke = {
-		main="Ice Staff",
 		head="Warlock's Chapeau",
 		body="Warlock's Tabard",
 		hands="Warlock's Gloves",
