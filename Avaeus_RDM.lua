@@ -84,7 +84,7 @@ function get_sets()
 		neck="Jeweled Collar",
 		waist="Marid Belt",
 		left_ear="Phantom Earring",
-		right_ear="Fang Earring",
+		right_ear="Platinum Earring",
 		left_ring="Empress Band",
 		right_ring="Echad Ring",
 		back="Smilodon Mantle",
@@ -113,7 +113,7 @@ function get_sets()
 		neck="Jeweled Collar",
 		waist="Marid Belt",
 		left_ear="Phantom Earring",
-		right_ear="Fang Earring",
+		right_ear="Platinum Earring",
 		left_ring="Empress Band",
 		right_ring="Echad Ring",
 		back="Smilodon Mantle",
@@ -244,7 +244,7 @@ function get_sets()
 		legs="Warlock's Tights",
 		feet="Warlock's Boots",
 		neck="Jeweled Collar",
-		waist="Arachne Obi",
+		waist="Tarutaru Sash",
 		left_ear="Phantom Earring",
 		back="Peace Cape",
 	}
@@ -257,7 +257,7 @@ function get_sets()
 
 	-- Job Abilities
 	sets.JA = {}
-	sets.JA["Chainspell"] = {body={}}
+	sets.JA["Chainspell"] = {}
 	sets.JA["Saboteur"] = {}
 	sets.JA["Spontaneity"] = {}
 	sets.JA["Stymie"] = {}
