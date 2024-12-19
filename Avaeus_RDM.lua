@@ -149,7 +149,8 @@ function get_sets()
 	-- ===================================================================================================================
 
 	--Base set for midcast - if not defined will notify and use your idle set for surviability
-	sets.Midcast = set_combine(sets.Idle, {waist="Tarutaru Sash"})
+	sets.Midcast = set_combine(sets.Idle, {waist="Tarutaru Sash",
+	back="Peace Cape",})
 
 	-- Ranged Attack Gear (Normal Midshot)
     sets.Midcast.RA = set_combine(sets.Midcast, {})
@@ -242,7 +243,7 @@ function get_sets()
 		neck="Jeweled Collar",
 		waist="Tarutaru Sash",
 		left_ear="Phantom Earring",
-		back="Peace Cape",
+		back="Fed. Army Mantle",
 	}
 
 	sets.Midcast.Burst = set_combine(sets.Midcast.Nuke, {})
