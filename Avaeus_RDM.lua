@@ -76,7 +76,7 @@ function get_sets()
 	-- Standard Idle set with -DT,Refresh,Regen and movement gear
 	sets.Idle = {
 		head="Weath. Corona +1",
-		body="Weather. Robe +1",
+		body="Orvail Robe +1",
 		hands="Weath. Cuffs +1",
 		legs="Weath. Pants +1",
 		feet="Weath. Souliers +1",
@@ -174,7 +174,7 @@ function get_sets()
 		hands="Weath. Cuffs +1",
 		legs="Weath. Pants +1",
 		feet="Weath. Souliers +1",
-		neck="Mohbwa Scarf",
+		neck="Jeweled Collar",
 		waist="Tarutaru Sash",
 		left_ear="Phantom Earring",
 		left_ring="Empress Band",
