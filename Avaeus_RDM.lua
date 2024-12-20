@@ -131,7 +131,7 @@ function get_sets()
 	sets.Precast.FastCast = {head="Warlock's Chapeau", legs="Orvail Pants +1",} -- 66% total Fast Cast (Lowered with Quick Magic)
 
 	-- Used for Raises and Cures
-	sets.Precast.QuickMagic = set_combine(sets.Precast.FastCast, {})
+	sets.Precast.QuickMagic = set_combine(sets.Precast.FastCast, {back="Ogapepo Cape"})
 
 	sets.Precast.RA = set_combine(sets.Precast, {})	
 
@@ -165,7 +165,7 @@ function get_sets()
     sets.Midcast.RA.CRIT = set_combine(sets.Midcast.RA, {})
 
 	--This set is used as base as is overwrote by specific gear changes (Spell Interruption Rate Down)
-	sets.Midcast.SIRD = {}
+	sets.Midcast.SIRD = {body="Warlock's Tabard", waist="Tarutaru Sash"}
 
 	-- Cure Set
 	sets.Midcast.Cure = {
@@ -174,11 +174,7 @@ function get_sets()
 		hands="Weath. Cuffs +1",
 		legs="Weath. Pants +1",
 		feet="Weath. Souliers +1",
-		neck="Jeweled Collar",
 		waist="Tarutaru Sash",
-		left_ear="Phantom Earring",
-		left_ring="Empress Band",
-		right_ring="Echad Ring",
 		back="Peace Cape",
 	} -- 50% Cure I, 16% Cure II
 
@@ -230,7 +226,7 @@ function get_sets()
 
 	sets.Midcast.Dark = set_combine(sets.Midcast.Enfeebling, {})
 
-	sets.Midcast.Dark.MACC = set_combine(sets.Midcast.Enfeebling.MACC, {})
+	sets.Midcast.Dark.MACC = set_combine(sets.Midcast.Enfeebling.MACC, {back="Ogapepo Cape"})
 
 	sets.Midcast.Dark.Absorb = set_combine(sets.Midcast.Enfeebling, {})
 
