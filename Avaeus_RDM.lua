@@ -103,11 +103,11 @@ function get_sets()
 	sets.OffenseMode.TP = set_combine(sets.OffenseMode, {})
 
 	sets.OffenseMode.DT = set_combine(sets.OffenseMode, {
-		head="Walahra Turban",
-		body="Warlock's Tabard",
-		hands="Warlock's Gloves",
-		legs="Warlock's Tights",
-		feet="Warlock's Boots",
+		head="Weath. Corona +1",
+		body="Weather. Robe +1",
+		hands="Weath. Cuffs +1",
+		legs="Weath. Pants +1",
+		feet="Weath. Souliers +1",
 		neck="Wivre Gorget",
 		waist="Marid Belt",
 		left_ear="Phantom Earring",
@@ -235,11 +235,11 @@ function get_sets()
 	sets.Midcast.Dark.Absorb = set_combine(sets.Midcast.Enfeebling, {})
 
 	sets.Midcast.Nuke = {
-		head="Warlock's Chapeau",
-		body="Warlock's Tabard",
-		hands="Warlock's Gloves",
-		legs="Warlock's Tights",
-		feet="Warlock's Boots",
+		head="Weath. Corona +1",
+		body="Weather. Robe +1",
+		hands="Weath. Cuffs +1",
+		legs="Weath. Pants +1",
+		feet="Weath. Souliers +1",
 		neck="Jeweled Collar",
 		waist="Tarutaru Sash",
 		left_ear="Phantom Earring",
