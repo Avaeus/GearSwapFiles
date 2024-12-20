@@ -170,7 +170,7 @@ function get_sets()
 	-- Cure Set
 	sets.Midcast.Cure = {
 		head="Weath. Corona +1",
-		body="Weather. Robe +1",
+		body="Orvail Robe +1",
 		hands="Weath. Cuffs +1",
 		legs="Weath. Pants +1",
 		feet="Weath. Souliers +1",
