@@ -75,11 +75,11 @@ function get_sets()
 
 	-- Standard Idle set with -DT,Refresh,Regen and movement gear
 	sets.Idle = {
-		head="Walahra Turban",
-		body="Warlock's Tabard",
-		hands="Warlock's Gloves",
-		legs="Warlock's Tights",
-		feet="Warlock's Boots",
+		head="Orvail Corona +1",
+		body="Orvail Robe +1",
+		hands="Orvail Cuffs +1",
+		legs="Orvail Pants +1",
+		feet="Orvail Souliers +1",
 		neck="Jeweled Collar",
 		waist="Marid Belt",
 		left_ear="Phantom Earring",
@@ -128,7 +128,7 @@ function get_sets()
 	sets.Precast = {head="Warlock's Chapeau"}
 
 	-- 50% Fast Cast is needed on RDM (Fast Cast V - 30%)
-	sets.Precast.FastCast = {head="Warlock's Chapeau"} -- 66% total Fast Cast (Lowered with Quick Magic)
+	sets.Precast.FastCast = {head="Warlock's Chapeau", legs="Orvail Pants +1",} -- 66% total Fast Cast (Lowered with Quick Magic)
 
 	-- Used for Raises and Cures
 	sets.Precast.QuickMagic = set_combine(sets.Precast.FastCast, {})
@@ -185,10 +185,10 @@ function get_sets()
 	sets.Midcast.Curaga = set_combine(sets.Midcast.Cure, {})
 
 	-- Enhancing Duration on SELF
-	sets.Midcast.Enhancing = {} -- 150% Duration
+	sets.Midcast.Enhancing = {legs="Warlock's Tights"} -- 150% Duration
 
 	-- Enhancing Duration on OTHERS
-	sets.Midcast.Enhancing.Others = set_combine(sets.Midcast.Enhancing, {})
+	sets.Midcast.Enhancing.Others = set_combine(sets.Midcast.Enhancing, {legs="Warlock's Tights"})
 
 	-- Regen
 	sets.Midcast.Regen = {}
@@ -226,7 +226,7 @@ function get_sets()
 	sets.Midcast["Diaga"] = set_combine (sets.Midcast.Enfeebling, sets.TreasureHunter)
 	sets.Midcast["Dispelga"] = set_combine (sets.Midcast.Enfeebling, sets.TreasureHunter)
 
-	sets.Midcast.Refresh = set_combine(sets.Midcast.Enhancing, {})
+	sets.Midcast.Refresh = set_combine(sets.Midcast.Enhancing, {body="Orvail Robe +1"})
 
 	sets.Midcast.Dark = set_combine(sets.Midcast.Enfeebling, {})
 
