@@ -75,11 +75,11 @@ function get_sets()
 
 	-- Standard Idle set with -DT,Refresh,Regen and movement gear
 	sets.Idle = {
-		head="Orvail Corona +1",
-		body="Orvail Robe +1",
-		hands="Orvail Cuffs +1",
-		legs="Orvail Pants +1",
-		feet="Orvail Souliers +1",
+		head="Weath. Corona +1",
+		body="Weather. Robe +1",
+		hands="Weath. Cuffs +1",
+		legs="Weath. Pants +1",
+		feet="Weath. Souliers +1",
 		neck="Jeweled Collar",
 		waist="Marid Belt",
 		left_ear="Phantom Earring",
@@ -169,11 +169,11 @@ function get_sets()
 
 	-- Cure Set
 	sets.Midcast.Cure = {
-		head="Warlock's Chapeau",
-		body="Warlock's Tabard",
-		hands="Warlock's Gloves",
-		legs="Warlock's Tights",
-		feet="Warlock's Boots",
+		head="Weath. Corona +1",
+		body="Weather. Robe +1",
+		hands="Weath. Cuffs +1",
+		legs="Weath. Pants +1",
+		feet="Weath. Souliers +1",
 		neck="Mohbwa Scarf",
 		waist="Tarutaru Sash",
 		left_ear="Phantom Earring",
